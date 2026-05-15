@@ -1,2 +1,11 @@
 # Conditional.py
-If &amp; else statments.
+If & else statments.
+
+day_of_week=input("enter the day of week").lower
+print(day_of_week)
+
+if day_of_week=="saturday" or day_of_week=="sunday":
+print("i will learn live devops")
+
+else:
+print("i will practice devops")
